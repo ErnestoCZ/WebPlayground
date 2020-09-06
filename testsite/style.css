@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    min-width: 500px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: lightslategray;
+    font-family: 'Poppins', sans-serif;
+    padding: 25px;
+}
+
+.logo {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration:none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger div{
+    background-color: whitesmoke;
+    width: 23px;
+    height: 4px;
+    margin: 4px;
+}
+
+
+
+
+
